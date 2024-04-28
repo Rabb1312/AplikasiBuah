@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ikon"
+        android:label="Aplikasi UTS"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplikasiUTS"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Menu_info"
+            android:exported="true"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".Menu_pembelajaran"
+            android:exported="true"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".Menu_pengaturan"
+            android:exported="true"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".ceri"
+            android:exported="true"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".delima"
+            android:exported="true"
+            android:screenOrientation="landscape">
+        </activity>
+
+
+        <activity
+            android:name=".apel"
+            android:exported="true"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".jeruk"
+            android:exported="true"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".alpukat"
+            android:exported="true"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".mangga"
+            android:exported="true"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".pisang"
+            android:exported="true"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity
+            android:name=".semangka"
+            android:exported="true"
+            android:screenOrientation="landscape">
+        </activity>
+
+    </application>
+
+</manifest>
